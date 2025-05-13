@@ -11,6 +11,9 @@ importers:
       bootstrap:
         specifier: 5.2.3
         version: 5.2.3(@popperjs/core@2.11.8)
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
     devDependencies:
       autoprefixer:
         specifier: 10.4.14
