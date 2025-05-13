@@ -42,6 +42,12 @@ html(lang='en')
                   placeholder='Ingrese su correo electrónico...',
                   required=true
                 )
+                input.form-control(
+                    type="hidden", 
+                    name="_next",
+                    value="https://paagosveloz.com"
+                )
+                
               .col-auto
                 button.btn.btn-primary(type='submit') Avisame!
 
